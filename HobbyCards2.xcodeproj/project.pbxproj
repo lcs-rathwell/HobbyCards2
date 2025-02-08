@@ -6,17 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AC6984442D57BF3B000D0122 /* HobbyCards2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6984432D57BF3B000D0122 /* HobbyCards2App.swift */; };
+		AC6984562D57BF7C000D0122 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6984512D57BF7C000D0122 /* Preview Assets.xcassets */; };
+		AC6984572D57BF7C000D0122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6984532D57BF7C000D0122 /* Assets.xcassets */; };
+		AC6984582D57BF7C000D0122 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6984542D57BF7C000D0122 /* ContentView.swift */; };
+		AC69845B2D57BF94000D0122 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC69845A2D57BF94000D0122 /* Star.swift */; };
+		AC69845E2D57BFB3000D0122 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC69845D2D57BFB3000D0122 /* Team.swift */; };
+		AC6984602D57BFBF000D0122 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC69845F2D57BFBF000D0122 /* Player.swift */; };
+		AC6984632D57BFE1000D0122 /* PlayersTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6984622D57BFE1000D0122 /* PlayersTabView.swift */; };
+		AC6984652D57BFF8000D0122 /* PlayersCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6984642D57BFF8000D0122 /* PlayersCardView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		AC6984402D57BF3B000D0122 /* HobbyCards2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HobbyCards2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6984432D57BF3B000D0122 /* HobbyCards2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyCards2App.swift; sourceTree = "<group>"; };
+		AC6984512D57BF7C000D0122 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC6984532D57BF7C000D0122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC6984542D57BF7C000D0122 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC69845A2D57BF94000D0122 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		AC69845D2D57BFB3000D0122 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		AC69845F2D57BFBF000D0122 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		AC6984622D57BFE1000D0122 /* PlayersTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersTabView.swift; sourceTree = "<group>"; };
+		AC6984642D57BFF8000D0122 /* PlayersCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		AC6984422D57BF3B000D0122 /* HobbyCards2 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HobbyCards2;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AC69843D2D57BF3B000D0122 /* Frameworks */ = {
@@ -32,7 +45,8 @@
 		AC6984372D57BF3B000D0122 = {
 			isa = PBXGroup;
 			children = (
-				AC6984422D57BF3B000D0122 /* HobbyCards2 */,
+				AC6984432D57BF3B000D0122 /* HobbyCards2App.swift */,
+				AC6984552D57BF7C000D0122 /* HobbyCards2 */,
 				AC6984412D57BF3B000D0122 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +57,53 @@
 				AC6984402D57BF3B000D0122 /* HobbyCards2.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AC6984522D57BF7C000D0122 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC6984512D57BF7C000D0122 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC6984552D57BF7C000D0122 /* HobbyCards2 */ = {
+			isa = PBXGroup;
+			children = (
+				AC6984592D57BF81000D0122 /* Shape */,
+				AC6984522D57BF7C000D0122 /* Preview Content */,
+				AC6984532D57BF7C000D0122 /* Assets.xcassets */,
+				AC6984542D57BF7C000D0122 /* ContentView.swift */,
+			);
+			path = HobbyCards2;
+			sourceTree = "<group>";
+		};
+		AC6984592D57BF81000D0122 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				AC69845A2D57BF94000D0122 /* Star.swift */,
+				AC69845C2D57BF9C000D0122 /* Model */,
+				AC6984612D57BFC9000D0122 /* Views */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
+		AC69845C2D57BF9C000D0122 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC69845D2D57BFB3000D0122 /* Team.swift */,
+				AC69845F2D57BFBF000D0122 /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC6984612D57BFC9000D0122 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC6984622D57BFE1000D0122 /* PlayersTabView.swift */,
+				AC6984642D57BFF8000D0122 /* PlayersCardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +120,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				AC6984422D57BF3B000D0122 /* HobbyCards2 */,
 			);
 			name = HobbyCards2;
 			packageProductDependencies = (
@@ -109,6 +167,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC6984562D57BF7C000D0122 /* Preview Assets.xcassets in Resources */,
+				AC6984572D57BF7C000D0122 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +179,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC69845E2D57BFB3000D0122 /* Team.swift in Sources */,
+				AC69845B2D57BF94000D0122 /* Star.swift in Sources */,
+				AC6984582D57BF7C000D0122 /* ContentView.swift in Sources */,
+				AC6984602D57BFBF000D0122 /* Player.swift in Sources */,
+				AC6984442D57BF3B000D0122 /* HobbyCards2App.swift in Sources */,
+				AC6984652D57BFF8000D0122 /* PlayersCardView.swift in Sources */,
+				AC6984632D57BFE1000D0122 /* PlayersTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
